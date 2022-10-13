@@ -1,0 +1,77 @@
+@import "../sass/variables";
+@import "../sass/mixins";
+@import "../sass/preStylesMixins";
+
+$marginContent : 10px 20px 0;
+
+.tutorialItemWrapper{
+    flex: 0 1 350px;
+    background-color: $glassProjectBoxColor;
+    margin:70px 10px 20px;
+    box-shadow: 0 0 10px rgba(0 , 0 ,0 , 0.7);
+    border-radius: 15px;
+    padding-bottom: 20px;
+    backdrop-filter: blur(7px);
+}
+
+.tutorialItemWrapperHeading{
+    @include displayFlex(evenly);
+}
+
+.tiwh-platformWrapper{
+    @include miniBoxStyle();
+    @include displayFlex(center);
+    margin: 20px 10px;
+    min-height: 30px;
+    img{
+        width: 60px;
+    }
+}
+
+.tiwh-mainPicWrapper{
+    img{
+        background-color: $btnColor;
+        padding: 4px;
+        margin-top: -((100px / 2) + 24);
+        width : 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
+
+.tiwh-timingWrapper{
+    @include miniBoxStyle();
+    @include displayFlex(center);
+    margin: 20px 10px;
+    min-height: 30px;
+    img{
+        width: 20px;
+    }
+    span{
+        margin-left: 5px;
+        color: $textOne;
+        font-size: 0.7rem;
+    }
+}
+
+.tutorialItemTitle{
+    color: $textOne;
+    font-size: 0.8rem;
+    margin: $marginContent;
+}
+.tutorialItemDescription{
+    color: $textTwo;
+    font-size: 0.7rem;
+    margin: $marginContent;
+    text-align: justify;
+}
+
+
+.tutorialItemButtonWrapper{
+    @include displayFlex(center);
+    button{
+        margin: $marginContent;
+        margin-top: 20px;
+    }
+}

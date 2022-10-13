@@ -1,0 +1,11 @@
+@import "../sass/variables";
+
+.softSkillsItems{
+    margin: 20px 0;
+    li{
+        list-style: disc;
+        font-size: 0.8rem;
+        margin: 10px 0;
+        color: $textOne;
+    }
+}

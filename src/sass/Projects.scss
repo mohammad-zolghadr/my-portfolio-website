@@ -1,0 +1,12 @@
+@import "../sass/variables";
+@import "../sass/mixins";
+@import "../sass/preStylesMixins";
+
+.projectsWrapper{
+    @include displayFlex(center);
+    flex-wrap: wrap;
+}
+
+.seeMoreWrapper{
+    @include btnSeeMoreStyle;
+}

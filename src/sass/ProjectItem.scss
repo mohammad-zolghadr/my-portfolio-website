@@ -1,0 +1,38 @@
+@import "../sass/variables";
+@import "../sass/mixins";
+
+
+.projectItemWrapper{
+    flex: 1 1 270px;
+    background-color: $glassProjectBoxColor;
+    padding: 15px;
+    margin: 20px 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0 , 0 ,0 , 0.7);
+    backdrop-filter: blur(7px);
+
+    h3{
+        font-size: 1rem;
+        color: $primaryColor;
+    }
+
+    .projectDescription{
+        color: $textTwo;
+        font-size: 0.8rem;
+        margin-top: 10px;
+    }
+    
+    .projectTechnologies{
+        color: $textThree;
+        font-size: 0.7rem;
+        text-align: justify;
+        margin-top: 10px;
+    }
+    
+    .projectCTA{
+        margin-top: 15px;
+        @include displayFlex(between);
+
+    }
+
+}

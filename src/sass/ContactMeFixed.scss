@@ -1,0 +1,21 @@
+@import "../sass/fonts";
+@import "../sass/variables";
+@import "../sass/mixins";
+
+.contactMeWrapper{
+    position: fixed;
+    right: 0;
+    top : (100vh / 2) - 20;
+    padding: 20px 13px;
+    @include displayFlex(center);
+    flex-direction: column;
+    background-color: $boxColor;
+    border-radius: 30px 0 0 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0 , 0.7);
+
+    img{
+        width: 20px;
+        margin: 10px 0;
+        @include simpleHover;
+    }
+}

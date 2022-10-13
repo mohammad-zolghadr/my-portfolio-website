@@ -1,0 +1,18 @@
+@import "../sass/mixins";
+
+.scrollToTopWrapper{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    @include displayFlex(center);
+    
+    button{
+        @include displayFlex(center);
+        width: 30px;
+        height: 30px;
+        
+        img{
+            width: 15px;
+        }
+    }
+}

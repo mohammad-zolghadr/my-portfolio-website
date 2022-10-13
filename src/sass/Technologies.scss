@@ -1,0 +1,62 @@
+@import "./variables";
+@import "./mixins";
+
+.technologiesWrapper{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    background-color: $boxColor;
+    width: 35px;
+    height : 35px;
+    margin: 5px 10px 0 0;
+    border-radius : 50%;
+    box-shadow : 0 0 5px rgba(0, 0, 0 , 0.7);
+    transition:0.3s;
+    position: relative;
+
+    &:hover{
+           span{
+            display: flex;
+           } 
+    }
+
+    img{
+        @include simpleHover;
+        width : 20px;
+    }
+
+    span{
+        display: none;
+        padding: 10px 20px 10px 45px;
+        background-color: $glassBoxPurpleColor;
+        border-radius: 0 15px 15px 15px;
+        box-shadow: 0 0 10px rgba(0, 0, 0 , 0.7);
+        position: absolute;
+        top: 130%;
+        left: 5px;
+        z-index: 10;
+        backdrop-filter: blur(7px);
+        
+        li{
+            color: $textTwo;
+            width:max-content;
+            font-size: 0.8rem;
+            margin-top: 5px;
+            font-family: bf;
+
+            &::before{
+                content: "\2022";
+                position: absolute;
+                display: flex;
+                font-size: 1.3rem;
+                color: $primaryColor;
+                justify-content: center;
+                align-items: center;
+                width: 1em;
+                margin:0 -1.2em;
+                height: 1.1rem;
+            }
+        }
+    }
+
+}

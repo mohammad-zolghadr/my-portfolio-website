@@ -1,0 +1,23 @@
+@import "./fonts";
+@import "./variables";
+@import "./_mixins";
+
+*{
+    @include cssReset;
+    font-family: nf;
+    color: $textOne;
+}
+
+body{
+    background-color: $bgColor;
+}
+
+button{
+    background-color: $btnColor;
+    padding: 5px 15px;
+    border-radius: 30px;
+    font-family: bf;
+    font-size: 0.8rem;
+    color: $primaryColor;
+    @include simpleHover;
+}

@@ -1,0 +1,40 @@
+@import "./_variables";
+@import "./mixins";
+
+.header{
+    @include displayFlex(between);
+    flex-wrap: wrap;
+    padding: 10px;
+
+    ul{
+       @include displayFlex(center);
+    }
+
+    li{
+        margin: 5px 10px;
+    }
+    
+    a{
+        font-family: bf;
+        font-size: 0.8rem;
+        @include simpleHover;
+    }
+    span{
+        color: $primaryColor;
+        }
+}
+
+
+.burger-menu{
+    @include simpleHover;
+    span{
+        display: block;
+        background-color: $textTwo;
+        width: 30px;
+        height:4px;
+        margin: 6px;
+        border-radius: 20px;
+    }
+}
+
+

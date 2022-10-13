@@ -1,0 +1,30 @@
+@import "../sass/fonts";
+@import "../sass/variables";
+@import "../sass/mixins";
+
+.educationDataWrapper{
+    margin: 20px 0;
+
+    h3{
+        font-size: 1rem;
+        font-family: bf;
+        
+        span{
+            color : $primaryColor;
+            font-family: bf;
+        }
+    }
+
+    .educationTime{
+        font-family: nfi;
+        font-size: 0.7rem;
+        color: $textThree;
+        margin: 10px 0;
+    }
+
+    .educationUniversity {
+        color: $textTwo;
+        font-size: 0.9rem;
+    }
+
+}

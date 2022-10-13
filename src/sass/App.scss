@@ -1,0 +1,17 @@
+@import "../sass/mixins";
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.mainPage_multiColumnWrapper{
+    @include displayFlex(evenly);
+    align-items: flex-start;
+}
+
+@media (min-width:992px){
+    main{
+        max-width: 70%;
+    }
+}

@@ -1,0 +1,19 @@
+@import "../sass/variables";
+@import "../sass/mixins";
+
+footer{
+    padding: 80px 0 50px;
+    @include displayFlex(center);
+    flex-direction: column;
+
+    h3{
+        font-size: 1rem;
+        color: $primaryColor;
+    }
+
+    p {
+        font-size: 0.7rem;
+        margin-top: 15px;
+        color: $textThree;
+    }
+}
