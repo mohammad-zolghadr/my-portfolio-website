@@ -10,7 +10,8 @@ const Projects = () => {
     {
       id: 1,
       title: "Proffessional Todo",
-      description: "Todo App : Add, Remove, Auto Analyze(Soon)",
+      description:
+        "Professional Todo App : Add or Remove a Task (you can fill all fields with voice), Auto Analyze(Soon)",
       technologies:
         "React.Js - Redux - React-Router-Dom (SPA) - Local Storage - SpeechRecognition - React Hooks",
       link: "https://github.com/mohammad-zolghadr/Pro-Todo",
@@ -19,7 +20,7 @@ const Projects = () => {
       id: 2,
       title: "E-Commerce Website",
       description:
-        "Shopping Cart : Shopping Cart : Landing Page , Product Page , Product Detail Page , Add To Cart , Checkout Page ,...",
+        "Shopping Cart : Shopping Cart : Landing Page , Product Page , Product Detail Page , Add To Cart , Checkout Page etc.",
       technologies:
         "React.Js - Redux - React-Router-Dom (SPA) - Axios - REST API - React Hooks",
       link: "https://github.com/mohammad-zolghadr/Shopping-Cart-E-commerce-Website-",

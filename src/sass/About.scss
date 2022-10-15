@@ -29,6 +29,8 @@
 
 .TechnologiesContainer{
     display: flex;
+    flex-wrap: wrap;
+    row-gap: 8px;
     margin-top: 10px;
     padding: 0 10px;
 }

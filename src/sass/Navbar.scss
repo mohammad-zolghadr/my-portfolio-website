@@ -8,6 +8,8 @@
 
     ul{
        @include displayFlex(center);
+       flex-wrap: wrap;
+       row-gap: 10px;
     }
 
     li{

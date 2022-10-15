@@ -4,6 +4,10 @@
 
 .projectItemWrapper{
     flex: 1 1 270px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    min-height: 230px;
     background-color: $glassProjectBoxColor;
     padding: 15px;
     margin: 20px 10px;
@@ -33,6 +37,11 @@
         margin-top: 15px;
         @include displayFlex(between);
 
+    }
+
+    .showParaghraphSpan{
+        color: $primaryColor;
+        @include simpleHover;
     }
 
 }
