@@ -21,7 +21,7 @@ const TutorialItem = (data) => {
           <img src={imgSrc} alt="" />
         </div>
         <div className="tiwh-timingWrapper">
-          <img src={clockIco} alt="" /> <span>{time} hours</span>
+          <img src={clockIco} alt="" /> <span>{time} hour</span>
         </div>
       </div>
       <h3 className="tutorialItemTitle">{title}</h3>
