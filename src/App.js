@@ -13,12 +13,10 @@ import SoftSkills from "./components/SoftSkills";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import ContactMeFixed from "./components/ContactMeFixed";
-import CircleBg from "./components/CircleBg";
 
 const App = () => {
   return (
     <>
-      {/* <CircleBg /> */}
       <ContactMeFixed />
       <Navbar />
       <main>

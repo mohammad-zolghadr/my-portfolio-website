@@ -3,6 +3,9 @@ import React from "react";
 // styles & icons
 import style from "../sass/Tutorial.scss";
 import reactTutorialIco from "../assets/images/react-tutorial.png";
+import responsiveTutorialIco from "../assets/images/responsive-tutorial.png";
+import neumorphismTutorialIco from "../assets/images/neumorphism-tutorial.png";
+import multiColomnTutorialIco from "../assets/images/multi-column - tutorial.png";
 
 // component
 import TutorialItem from "./TutorialItem";
@@ -23,7 +26,7 @@ const Tutorial = () => {
       id: 2,
       platform: "faradars",
       time: 3,
-      imgSrc: reactTutorialIco,
+      imgSrc: responsiveTutorialIco,
       title: "Responsive LandingPage With Html Css Js",
       description:
         "In this training, we have tried to provide you with all the tips that are needed to implement a landing page or sell products with a simple and minimal design and implementation in the simplest ways and expressing basic and fundamental topics.",
@@ -31,9 +34,9 @@ const Tutorial = () => {
     },
     {
       id: 3,
-      platform: "youtube",
+      platform: "faradars",
       time: 5,
-      imgSrc: reactTutorialIco,
+      imgSrc: neumorphismTutorialIco,
       title: "Neumorphism Design in Html Css",
       description:
         "These days, website design is one of the busiest branches of programming because it can be implemented in all operating systems. For the uniqueness of the website design, it is better to get familiar with the new design style. One of these new design styles that has become very trendy today is the Neomorphism style. This style is a new and minimal method for designs with a soft and extruded plastic appearance, which is made from the combination of two styles, one is minimalism and the other is skeuomorphism.",
@@ -43,7 +46,7 @@ const Tutorial = () => {
       id: 4,
       platform: "youtube",
       time: 5,
-      imgSrc: reactTutorialIco,
+      imgSrc: multiColomnTutorialIco,
       title: "Multi-Column Page with Html Css Bootstrap",
       description:
         "In this training course, we will learn complete tips about creating a multi-column landing page using html css bootstrap and I will teach you very important tips for implementation.",
