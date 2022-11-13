@@ -2,7 +2,7 @@
 # You can see demo of : Portfolio Website
 
 ```diff
-- Not Completed Yet! (Soon)
+- Not Completed Yet!
 ```
 
 in this project I use :
